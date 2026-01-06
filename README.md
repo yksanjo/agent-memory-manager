@@ -1,5 +1,9 @@
 # Agent Memory Management Library
 
+![License](https://img.shields.io/github/license/ai-engineer-community/agent-memory-manager)
+![TypeScript](https://img.shields.io/badge/Made%20with-TypeScript-blue)
+![NPM](https://img.shields.io/npm/v/agent-memory-manager)
+
 A TypeScript library providing hierarchical memory compression, context window prediction, memory indexing for fast recall, and multi-turn conversation replay for debugging.
 
 ## Features
