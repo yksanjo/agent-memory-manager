@@ -1,0 +1,36 @@
+{
+  "name": "agent-memory-manager",
+  "version": "1.0.0",
+  "description": "Hierarchical memory management for AI agents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "ai",
+    "memory",
+    "agents",
+    "context",
+    "typescript"
+  ],
+  "author": "AI Engineer Community",
+  "license": "MIT",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^1.1.0",
+    "openai": "^4.20.0",
+    "weaviate-ts-client": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  }
+}
